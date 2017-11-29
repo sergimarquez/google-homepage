@@ -1,5 +1,67 @@
+body {
+	background: #fff;
+	color: #222;
+	font-family: arial, sans-serif;
+	font-size: small;
+	margin: 0 auto;
+}
+
+nav {
+	margin: 20px 20px;
+    position: fixed;
+    top: 0;
+    right: 0;
+    left:0;
+}
+
+ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+}
+
+li {
+	display: inline;
+	padding: 8px 1px;
+
+}
+
+li a {
+	text-decoration: none;
+	color: #000;
+	opacity: 0.75;
+}
+
+a {
+	cursor: auto;
+}
+
+a:hover, a:active {
+    text-decoration: underline;
+}
+
+.navRight {
+	float: right;
+	margin-right: 11px;
+}
+
+.navLeft {
+	float: left;
+	margin-left: 11px;
+}
+
+
 .content {
 	display: block;
 	text-align: center;
 	margin-top: 250px;
+}
+
+#apps {
+	margin: -10px 0px 0px -10px;
+	opacity: 0.75;
+}
+
+#apps:hover {
+	opacity: 1;
 }
