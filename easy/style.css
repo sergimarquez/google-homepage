@@ -6,23 +6,30 @@ body {
 	margin: 0 auto;
 }
 
+ul {
+	padding-right: 40px;
+}
+
 nav {
 	margin: 20px 20px;
-    position: fixed;
+	display: inline-block;
     top: 0;
     right: 0;
     left:0;
 }
 
-ul {
-    list-style-type: none;
-    margin: 0;
-    padding: 0;
+footer {
+    bottom: 0;
+    background: #f2f2f2;
+    border-top: 1px solid #e4e4e4;
+    line-height: 20px;
+    width: 100%;
+    position: absolute;
 }
+
 
 li {
 	display: inline;
-	padding: 8px 1px;
 
 }
 
@@ -126,11 +133,24 @@ input[type="search"]::-webkit-search-cancel-button {
 	margin-left: 11px;
 }
 
+.footerRight {
+	float: right;
+	padding-right: 15px;
+	padding-bottom: 10px;
+}
+
+.footerLeft {
+	float: left;
+	padding-left: 15px;
+	padding-bottom: 10px;
+}
+
 
 .content {
 	display: block;
 	text-align: center;
-	margin-top: 200px;
+	margin-top: 150px;
+	margin-bottom: 150px;
 }
 
 #apps {
